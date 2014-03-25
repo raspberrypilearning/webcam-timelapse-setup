@@ -161,11 +161,15 @@ You can shut down the Pi, remove it from the monitor and ethernet and simply hav
 
 You can even use a battery pack if you have one that lasts long enough for your requirements. This is especially handy if you need to position the power out of reach of a power socket, such as on a roof or in a tree!
 
-### If you have network connection with the Pi (wired or wireless) or your monitor is still attached, you can check the progress of the photos.
+### Copying pictures remotely
 
-If your monitor is attached, you can use `ls`, `watch ls` and even the file browser to see photos as they are captured.
+If you have network connection with the Pi (wired or wireless) or your monitor is still attached, you can check the progress of the photos.
 
-If you use SSH to connect to the Pi, you can use `ls` and `watch ls` to verify the pictures are being captured, and use `scp` or `rsync` to copy the files to your computer. Here are some options, which you can read about in our documentation:
+If your monitor is attached, you can use `ls`, `watch ls` and even the file browser to see photos as they are captured, otherwise you can remotely access your Pi from another computer to copy the files to your computer. Here are some options, which you can read about in our documentation:
+
+#### SSH
+
+You can gain remote access to the command line using [SSH](ttps://github.com/raspberrypi/documentation/blob/master/remote-access/ssh/README.md) use `ls` and `watch ls` to verify the pictures are being captured.
 
 #### SCP
 
