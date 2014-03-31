@@ -1,4 +1,4 @@
-# Time-lapse Setup Using a USB webcam
+# Time-lapse Setup Using a USB Webcam
 
 How to set up a time-lapse with a Raspberry Pi using a standard USB webcam.
 
@@ -111,7 +111,7 @@ Now you'll see the `cron` file. Scroll to the bottom, where you'll see a line wi
 # m h  dom mon dow   command
 ```
 
-The layout for a cron entry is made up of six components: minute, hour, day of month, month of year, day of week and the command to be executed. See the diagram below:
+The layout for a cron entry is made up of six components: minute, hour, day of month, month of year, day of week, and the command to be executed. See the diagram below:
 
 ```
 # * * * * *  command to execute
@@ -155,7 +155,7 @@ If you see pictures appearing in the `camera` folder every minute, and you're ha
 
 You could perhaps use a camera mount or simply tape the Pi to a wall or object, and position the camera with tape. Make sure the camera position is static and will remain in place over time.
 
-You can shut down the Pi, remove it from the monitor and ethernet and simply have it running on power in the position you require. When you plug it in, it will boot as normal and `cron` will run as expected.
+You can shut down the Pi, remove it from the monitor and Ethernet and simply have it running on power in the position you require. When you plug it in, it will boot as normal and `cron` will run as expected.
 
 You can even use a battery pack, if you have one that lasts long enough for your requirements. This is especially handy if you need to position the power out of reach of a power socket, such as on a roof or in a tree!
 
