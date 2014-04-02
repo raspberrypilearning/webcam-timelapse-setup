@@ -4,7 +4,7 @@ How to set up a time-lapse with a Raspberry Pi using a standard USB webcam.
 
 ## Step 0: Camera setup
 
-Follow the [webcam setup guide](https://github.com/raspberrypi/documentation/tree/master/usage/webcams.md).
+Follow the [webcam setup guide](/documentation/usage/webcams.md).
 
 ## Step 1: Test the camera
 
@@ -169,19 +169,19 @@ If your monitor is attached, you can use `ls`, `watch ls` and even the file brow
 
 #### SSH
 
-You can gain remote access to the command line using [SSH](ttps://github.com/raspberrypi/documentation/blob/master/remote-access/ssh/README.md) use `ls` and `watch ls` to verify the pictures are being captured.
+You can gain remote access to the command line using [SSH](/documentation/remote-access/ssh/README.md) use `ls` and `watch ls` to verify the pictures are being captured.
 
 #### SCP
 
-Use [SCP](https://github.com/raspberrypi/documentation/blob/master/remote-access/ssh/scp.md) (Secure copy) to copy files over [SSH](https://github.com/raspberrypi/documentation/blob/master/remote-access/ssh/README.md).
+Use [SCP](/documentation/remote-access/ssh/scp.md) (Secure copy) to copy files over [SSH](/documentation/remote-access/ssh/README.md).
 
 #### rsync
 
-Use [`rsync`](https://github.com/raspberrypi/documentation/blob/master/remote-access/ssh/rsync.md) to syncronise a folder on the Pi with a folder on your computer.
+Use [`rsync`](/documentation/remote-access/ssh/rsync.md) to syncronise a folder on the Pi with a folder on your computer.
 
 #### FTP
 
-Set up an [FTP](https://github.com/raspberrypi/documentation/blob/master/remote-access/ftp.md) server on the Pi and use an FTP client on another computer to access the Pi's filesystem remotely, and copy files over.
+Set up an [FTP](/documentation/remote-access/ftp.md) server on the Pi and use an FTP client on another computer to access the Pi's filesystem remotely, and copy files over.
 
 #### SD Card
 
