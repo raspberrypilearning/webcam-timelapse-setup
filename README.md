@@ -4,7 +4,7 @@ How to set up a time-lapse with a Raspberry Pi using a standard USB webcam.
 
 ## Step 0: Camera setup
 
-Follow the [webcam setup guide](https://github.com/raspberrypi/documentation/tree/master/usage/webcams.md).
+Follow the [webcam setup guide](http://www.raspberrypi.org/documentation/usage/webcams/README.md).
 
 ## Step 1: Test the camera
 
