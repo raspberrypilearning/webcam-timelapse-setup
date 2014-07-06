@@ -171,6 +171,10 @@ If your monitor is attached, you can use `ls`, `watch ls` and even the file brow
 
 You can gain remote access to the command line using [SSH](ttps://github.com/raspberrypi/documentation/blob/master/remote-access/ssh/README.md) use `ls` and `watch ls` to verify the pictures are being captured.
 
+#### SFTP
+
+Use [SFTP](https://github.com/raspberrypi/documentation/blob/master/remote-access/ssh/sftp.md) (SSH File Transfer Protocol) to transfer, copy and browse using [SSH](https://github.com/raspberrypi/documentation/blob/master/remote-access/ssh/README.md). 
+
 #### SCP
 
 Use [SCP](https://github.com/raspberrypi/documentation/blob/master/remote-access/ssh/scp.md) (Secure copy) to copy files over [SSH](https://github.com/raspberrypi/documentation/blob/master/remote-access/ssh/README.md).
