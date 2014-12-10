@@ -10,7 +10,7 @@ Follow the [webcam setup guide](http://www.raspberrypi.org/documentation/usage/w
 
 With the webcam connected and `fswebcam` installed, enter the command `fswebcam` followed by a filename and a picture will be taken using the webcam, and saved to the filename specified:
 
-```
+```bash
 fswebcam cam.jpg
 ```
 
@@ -35,7 +35,7 @@ Now type `ls` and you should see a file called `cam.jpg`. Open your home folder 
 
 The webcam used in this example has a resolution of 1280 x 720 so to specify the resolution I want the image to be taken at, use the `-r` flag:
 
-```
+```bash
 fswebcam -r 1280x720 cam2.jpg
 ```
 
@@ -45,7 +45,7 @@ Now check again, there should now be a `cam2.jpg` file at full resolution.
 
 If you would like to remove the banner with the timestamp, use the `--no-banner` flag:
 
-```
+```bash
 fswebcam -r 1280x720 --no-banner cam3.jpg
 ```
 
@@ -57,7 +57,7 @@ Now check again, there should now be a `cam3.jpg` file at full resolution with n
 
 Now we'll write a Bash script which will take a picture and save it with the date and time. It can be as simple as this:
 
-```
+```bash
 #!/bin/bash
 
 DATE=$(date +"%Y-%m-%d_%H%M")
@@ -69,13 +69,13 @@ Create a new file called `camera.sh` by opening with a text editor, e.g. `nano c
 
 Now make this file executable with the following command:
 
-```
+```bash
 chmod +x camera.sh
 ```
 
 Running this script will save a picture with the timestamp as the filename in a folder called `camera` in your home directory. First we'll create this folder:
 
-```
+```bash
 mkdir camera
 ```
 
@@ -85,7 +85,7 @@ You can use `pwd` (present working directory) to verify your location and `ls` t
 
 Before continuing, test the script works as intended by running it from the command line (first return to the home directory with `cd`):
 
-```
+```bash
 ./camera.sh
 ```
 
@@ -99,7 +99,7 @@ Now you have a Bash script which takes pictures and timestamps them, you can sch
 
 To do this we'll use `cron`. First open the cron table for editing:
 
-```
+```bash
 sudo crontab -e
 ```
 
@@ -143,7 +143,7 @@ crontab: installing new crontab
 
 Now return to the camera directory to see the photos start to appear:
 
-```
+```bash
 cd ~/camera/
 ```
 
