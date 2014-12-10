@@ -169,23 +169,23 @@ If your monitor is attached, you can use `ls`, `watch ls` and even the file brow
 
 #### SSH
 
-You can gain remote access to the command line using [SSH](ttps://github.com/raspberrypi/documentation/blob/master/remote-access/ssh/README.md) use `ls` and `watch ls` to verify the pictures are being captured.
+You can gain remote access to the command line using [SSH](http://www.raspberrypi.org/documentation/remote-access/ssh/README.md) use `ls` and `watch ls` to verify the pictures are being captured.
 
 #### SFTP
 
-Use [SFTP](https://github.com/raspberrypi/documentation/blob/master/remote-access/ssh/sftp.md) (SSH File Transfer Protocol) to transfer, copy and browse using [SSH](https://github.com/raspberrypi/documentation/blob/master/remote-access/ssh/README.md). 
+Use [SFTP](http://www.raspberrypi.org/documentation/remote-access/ssh/sftp.md) (SSH File Transfer Protocol) to transfer, copy and browse using [SSH](http://www.raspberrypi.org/documentation/remote-access/ssh/README.md). 
 
 #### SCP
 
-Use [SCP](https://github.com/raspberrypi/documentation/blob/master/remote-access/ssh/scp.md) (Secure copy) to copy files over [SSH](https://github.com/raspberrypi/documentation/blob/master/remote-access/ssh/README.md).
+Use [SCP](http://www.raspberrypi.org/documentation/remote-access/ssh/scp.md) (Secure copy) to copy files over [SSH](http://www.raspberrypi.org/documentation/remote-access/ssh/README.md).
 
 #### rsync
 
-Use [`rsync`](https://github.com/raspberrypi/documentation/blob/master/remote-access/ssh/rsync.md) to syncronise a folder on the Pi with a folder on your computer.
+Use [`rsync`](http://www.raspberrypi.org/documentation/remote-access/ssh/rsync.md) to syncronise a folder on the Pi with a folder on your computer.
 
 #### FTP
 
-Set up an [FTP](https://github.com/raspberrypi/documentation/blob/master/remote-access/ftp.md) server on the Pi and use an FTP client on another computer to access the Pi's filesystem remotely, and copy files over.
+Set up an [FTP](http://www.raspberrypi.org/documentation/remote-access/ftp.md) server on the Pi and use an FTP client on another computer to access the Pi's filesystem remotely, and copy files over.
 
 #### SD Card
 
