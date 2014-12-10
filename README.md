@@ -83,6 +83,18 @@ Make sure you're in the home directory when you do this. If you're not, or you'r
 
 You can use `pwd` (present working directory) to verify your location and `ls` to show the contents. After running `mkdir` you should see a new folder there.
 
+Edit the `camera.sh` script to give the full path to the new folder by changing the line:
+
+```bash
+fswebcam -r 1280x720 --no-banner $DATE.jpg
+```
+
+to:
+
+```bash
+fswebcam -r 1280x720 --no-banner /home/pi/camera/$DATE.jpg
+```
+
 Before continuing, test the script works as intended by running it from the command line (first return to the home directory with `cd`):
 
 ```bash
